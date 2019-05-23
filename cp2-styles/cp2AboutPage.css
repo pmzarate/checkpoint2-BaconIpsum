@@ -1,0 +1,22 @@
+.body {
+    width: 1200px;
+    height: 1200px;
+    opacity: .5%;
+    background: linear-gradient(rgb(244,103,49, .74),rgb(43,205,192, .74),rgba(175, 210, 224, 0.74));
+    background-size: 100%;
+    background-position: center;
+}
+header {
+    background-color:  linear-gradient(rgb(244,103,49, .74),rgb(43,205,192, .74),rgba(175, 210, 224, 0.74));
+    font-family: 'Assistant', sans-serif;
+    background-size: 100%;
+    }
+header > h1 {
+    color: white;
+    font-size: 40px;
+}   
+.punk {
+    box-sizing: border-box;
+    width: 560px;
+    height: 315px;
+}

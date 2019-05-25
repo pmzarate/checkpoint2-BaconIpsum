@@ -1,22 +1,165 @@
-.body {
+body {
     width: 1200px;
     height: 1200px;
-    opacity: .5%;
-    background: linear-gradient(rgb(244,103,49, .74),rgb(43,205,192, .74),rgba(175, 210, 224, 0.74));
+    background: linear-gradient(rgb(244,103,49, .74),rgb(43,205,192, .74),rgb(50,168,218, .74))no-repeat;
     background-size: 100%;
-    background-position: center;
 }
-header {
-    background-color:  linear-gradient(rgb(244,103,49, .74),rgb(43,205,192, .74),rgba(175, 210, 224, 0.74));
-    font-family: 'Assistant', sans-serif;
-    background-size: 100%;
-    }
 header > h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    margin-left: 160px;
+    margin-top: 80px;
     color: white;
-    font-size: 40px;
-}   
-.punk {
-    box-sizing: border-box;
-    width: 560px;
-    height: 315px;
+    text-shadow: 1px 1px 2px rgb(244,103,49, .74) , 0 0 25px rgb(43,205,192, .74), 0 0 5px navy;
+    letter-spacing: 2px;
+    word-spacing: 10px;
 }
+header > h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+    margin-left: 455px;
+    margin-top: -30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(244,103,49, .74) , 0 0 25px rgb(43,205,192, .74), 0 0 5px navy;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+.coolvideo {
+    width: 565px;
+    height: 320px; 
+    padding: 25px 25px 25px 25px;
+    box-shadow: 5px white;
+    margin-top: 75px;
+    border: 1px solid #BFBFBF;
+    background-color: black;
+    box-shadow: 10px 10px 10px 5px  white;
+    margin-left: 50px;
+}
+#coolvideo {
+    width: 560px;
+    height: 316px;
+}
+
+section > p {
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    box-sizing: border-box;
+    width: 500px;
+    height: 400px;
+    color: black;
+    margin-left: 800px;
+    margin-top: -150px;
+    float: none;
+}
+@media (max-width: 900px){
+    body {
+        max-width: 900px;
+        height: auto;
+    }
+    header > h1 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 40px;
+        margin-left: 100px;
+        margin-top: 80px;
+        color: white;
+        text-shadow: 1px 1px 2px rgb(244,103,49, .74) , 0 0 25px rgb(43,205,192, .74), 0 0 5px navy;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+    }
+    header > h2 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 50px;
+        margin-left: 205px;
+        margin-top: -30px;
+        color: white;
+        text-shadow: 2px 2px 4px rgb(244,103,49, .74) , 0 0 25px rgb(43,205,192, .74), 0 0 5px navy;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+    }
+    .coolvideo {
+        width: 405px;
+        height: 280px; 
+        padding: 25px 25px 25px 25px;
+        box-shadow: 5px white;
+        margin-top: 75px;
+        border: 1px solid #BFBFBF;
+        background-color: black;
+        box-shadow: 10px 10px 10px 5px  white;
+        margin-left: 50px;
+    }
+    #coolvideo {
+        width: 405px;
+        height: 280px;
+    }
+    section > p {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        box-sizing: border-box;
+        width: 300px;
+        height: 400px;
+        color: black;
+        margin-left: 550px;
+        margin-top: -287px;
+        float: none;
+    }
+}
+@media (max-width: 576px){
+    body {
+        max-width: 576px;
+        height: auto;
+    }
+    header > h1 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 30px;
+        margin-left: 60px;
+        margin-top: 50px;
+        color: white;
+        text-shadow: 1px 1px 2px rgb(244,103,49, .74) , 0 0 25px rgb(43,205,192, .74), 0 0 5px navy;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+    }
+    header > h2 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 30px;
+        margin-left: 180px;
+        margin-top: -30px;
+        color: white;
+        text-shadow: 2px 2px 4px rgb(244,103,49, .74) , 0 0 25px rgb(43,205,192, .74), 0 0 5px navy;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+    }
+    .coolvideo {
+        width: 350px;
+        height: 200px; 
+        padding: 25px 25px 25px 25px;
+        box-shadow: 5px white;
+        margin-top: 75px;
+        border: 1px solid #BFBFBF;
+        background-color: black;
+        box-shadow: 10px 10px 10px 5px  white;
+        margin-left: 70px;
+    }
+    #coolvideo {
+        width: 350px;
+        height: 200px;
+    }
+    section > p {
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        box-sizing: border-box;
+        width: 300px;
+        height: 400px;
+        color: black;
+        margin-left: 125px;
+        margin-top: 110px;
+        text-align: center;
+        float: none;
+    }
+}
+
+
+
+

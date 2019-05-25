@@ -1,302 +1,315 @@
 body {
-    width: 1600px;
-    height: auto;   
+	width: 1600px;
+	height: auto;
 }
-.head-container {
-    width: auto;
-    height: 360px;
-    opacity: .5%;
-    background: linear-gradient(rgb(244,103,49, .74),rgb(43,205,192, .74),rgb(50,168,218, .74));
-    background-size: 100%;
-    background-position: center;
+header {
+	width: auto;
+	height: 360px;
+	opacity: 0.5%;
+	background: linear-gradient(
+			rgb(244, 103, 49, 0.74),
+			rgb(43, 205, 192, 0.74),
+			rgb(50, 168, 218, 0.74)
+		)
+		no-repeat;
+	background-size: 100%;
+	background-position: center;
 }
-.head-container h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-block-start: 10px;
-    color: white;
-    text-shadow: 1px 1px 2px rgb(244,103,49, .74) , 0 0 25px rgb(43,205,192, .74), 0 0 5px navy;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 150px;
-    opacity: .57px;
-    padding-top: 50px;
-  /*  background-color: lightgreen;*/
+div > h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-block-start: 10px;
+	color: white;
+	text-shadow: 1px 1px 2px rgb(244, 103, 49, 0.74),
+		0 0 25px rgb(43, 205, 192, 0.74), 0 0 5px navy;
+	font-family: "Orbitron", sans-serif;
+	font-size: 150px;
+	opacity: 0.57px;
+	padding-top: 50px;
 }
-.sidebar-icons > a {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    box-sizing: border-box;
-    width:100px;
-    justify-content: space-between;  
-    color: navy;
-    text-shadow: 2px 2px 4px whitesmoke;
-    font-size: 40px;
-    margin-left: 20px;
-    margin-top: -85px;
-   /* background-color: lightpink;*/
+.sidebar-icons {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 100px;
+	justify-content: space-between;
+	color: navy;
+	text-shadow: 2px 2px 4px whitesmoke;
+	font-size: 40px;
+	margin-left: 20px;
+	margin-top: -300px;
+	background-color: pink;
 }
 section {
-    background-color: black;
-    width:auto;
-    height: 500px;
-    display:flex;
-    flex-direction: row;
-    justify-content:space-evenly;
+	background-color: black;
+	width: auto;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 #bluepage {
-    box-decoration-break: clone;
-    box-sizing: border-box;
-    width: 275px;
-    height: 30px;
-    padding-top: 15px;
-    text-align: center;
-    margin-top: 40px;
-    background-color: rgb(50,168,218, .74);
-    font-family: 'Assistant', sans-serif;
-    color: white;
+	box-decoration-break: clone;
+	box-sizing: border-box;
+	width: 275px;
+	height: 30px;
+	padding-top: 15px;
+	text-align: center;
+	margin-top: 40px;
+	background-color: rgb(50, 168, 218, 0.74);
+	font-family: "Assistant", sans-serif;
+	color: white;
 }
 #bluepage > p {
-    box-sizing: content-box;
-    width: 275px;
-    height: auto;
-    font-size: 20px;
-    margin-top: -10px;
+	box-sizing: content-box;
+	width: 275px;
+	height: auto;
+	font-size: 20px;
+	margin-top: -10px;
 }
 #orangepage {
-    box-decoration-break: clone;
-    box-sizing: border-box;
-    width: 275px;
-    height: 30px;
-    padding-top: 15px;
-    text-align: center;
-    margin-top: 40px;
-    background-color: rgb(244,103,49, .74);   
-    font-family: 'Assistant', sans-serif;
-    color: white;
+	box-decoration-break: clone;
+	box-sizing: border-box;
+	width: 275px;
+	height: 30px;
+	padding-top: 15px;
+	text-align: center;
+	margin-top: 40px;
+	background-color: rgb(244, 103, 49, 0.74);
+	font-family: "Assistant", sans-serif;
+	color: white;
 }
-#orangepage> p {
-    box-sizing: content-box;
-    width: 275px;
-    height: 250px;
-    font-size: 20px;
-    margin-top: -10px;
+#orangepage > p {
+	box-sizing: content-box;
+	width: 275px;
+	height: 250px;
+	font-size: 20px;
+	margin-top: -10px;
 }
 #turquoispage {
-    box-decoration-break: clone;
-    box-sizing: border-box;
-    width: 275px;
-    height: 30px;
-    padding-top: 15px;
-    text-align: center;
-    margin-top: 40px;
-    background-color: rgb(43,205,192, .74);
-    font-family: 'Assistant', sans-serif;
-    color: white;
+	box-decoration-break: clone;
+	box-sizing: border-box;
+	width: 275px;
+	height: 30px;
+	padding-top: 15px;
+	text-align: center;
+	margin-top: 40px;
+	background-color: rgb(43, 205, 192, 0.74);
+	font-family: "Assistant", sans-serif;
+	color: white;
 }
 #turquoispage > p {
-    box-sizing: content-box;
-    width: 275px;
-    height: 250px; 
-    font-size: 20px;
-    margin-top: -10px;
+	box-sizing: content-box;
+	width: 275px;
+	height: 250px;
+	font-size: 20px;
+	margin-top: -10px;
 }
 @media (max-width: 900px) {
-    body {
-        width:900px;
-        height: auto;
-    }
-    .head-container {
-        width: auto;
-        height: 320px;
-        opacity: .5%;
-        background: linear-gradient(rgb(244,103,49, .74),rgb(43,205,192, .74),rgb(50,168,218, .74));
-        background-size: 100%;
-        background-position: center;
-    }
-    .head-container h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-block-start: 10px;
-        color: white;
-        text-shadow: 1px 1px 2px rgb(244,103,49, .74) , 0 0 25px rgb(43,205,192, .74), 0 0 5px navy;
-        font-family: 'Orbitron', sans-serif;
-        font-size: 100px;
-        opacity: .57px;
-        padding-top: 70px;
-    }
-    .sidebar-icons > a {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        box-sizing: border-box;
-        justify-content: space-between;  
-        color: navy;
-        text-shadow: 2px 2px 4px whitesmoke;
-        font-size: 30px;
-        margin-left: 20px;
-        margin-top: -65px;
-       /* background-color: lightpink;*/
-    }
-    section {
-        background-color: black;
-        width:auto;
-        height: 500px;
-        display:flex;
-        flex-direction: row;
-        justify-content:space-evenly;
-    }
-    #bluepage {
-        box-decoration-break: clone;
-        box-sizing: border-box;
-        width: 200px;
-        height: 30px;
-        padding-top: 15px;
-        text-align: center;
-        margin-top: 40px;
-        background-color: rgb(50,168,218, .74);
-        font-family: 'Assistant', sans-serif;
-        color: white;
-        font-size: 15px;
-    }
-    #bluepage > p {
-        box-sizing: content-box;
-        width: 200px;
-        height: auto;
-        font-size: 20px;
-        margin-top: -10px;
-    }
-    #orangepage {
-        box-decoration-break: clone;
-        box-sizing: border-box;
-        width: 200px;
-        height: 30px;
-        padding-top: 15px;
-        text-align: center;
-        margin-top: 40px;
-        background-color: rgb(244,103,49, .74); 
-        font-family: 'Assistant', sans-serif;
-        color: white;
-        font-size: 15px;
-    }
-    #orangepage> p {
-        box-sizing: content-box;
-        width: 200px;
-        height: auto;
-        font-size: 20px;
-        margin-top: -10px;
-    }
-    #turquoispage {
-        box-decoration-break: clone;
-        box-sizing: border-box;
-        width: 200px;
-        height: 30px;
-        padding-top: 15px;
-        text-align: center;
-        margin-top: 40px;
-        background-color: rgb(43,205,192, .74);
-        font-family: 'Assistant', sans-serif;
-        color: white;
-        font-size: 15px;
-    }
-    #turquoispage > p {
-        box-sizing: content-box;
-        width: 200px;
-        height: auto; 
-        font-size: 20px;
-        margin-top: -10px;
-    }
+	body {
+		width: 900px;
+		height: auto;
+	}
+	header {
+		width: auto;
+		height: 320px;
+		opacity: 0.5%;
+		background: linear-gradient(
+			rgb(244, 103, 49, 0.74),
+			rgb(43, 205, 192, 0.74),
+			rgb(50, 168, 218, 0.74)
+		);
+		background-size: 100%;
+		background-position: center;
+	}
+	div > h1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-block-start: 10px;
+		color: white;
+		text-shadow: 1px 1px 2px rgb(244, 103, 49, 0.74),
+			0 0 25px rgb(43, 205, 192, 0.74), 0 0 5px navy;
+		font-family: "Orbitron", sans-serif;
+		font-size: 100px;
+		opacity: 0.57px;
+		padding-top: 70px;
+	}
+	header > .sidebar-icons {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		box-sizing: border-box;
+		justify-content: space-between;
+		color: navy;
+		text-shadow: 2px 2px 4px whitesmoke;
+		font-size: 35px;
+		margin-left: 20px;
+		margin-top: -220px;
+		/* background-color: lightpink;*/
+	}
+	section {
+		background-color: black;
+		width: auto;
+		height: 500px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	#bluepage {
+		box-decoration-break: clone;
+		box-sizing: border-box;
+		width: 200px;
+		height: 30px;
+		padding-top: 15px;
+		text-align: center;
+		margin-top: 40px;
+		background-color: rgb(50, 168, 218, 0.74);
+		font-family: "Assistant", sans-serif;
+		color: white;
+		font-size: 15px;
+	}
+	#bluepage > p {
+		box-sizing: content-box;
+		width: 200px;
+		height: auto;
+		font-size: 20px;
+		margin-top: -10px;
+	}
+	#orangepage {
+		box-decoration-break: clone;
+		box-sizing: border-box;
+		width: 200px;
+		height: 30px;
+		padding-top: 15px;
+		text-align: center;
+		margin-top: 40px;
+		background-color: rgb(244, 103, 49, 0.74);
+		font-family: "Assistant", sans-serif;
+		color: white;
+		font-size: 15px;
+	}
+	#orangepage > p {
+		box-sizing: content-box;
+		width: 200px;
+		height: auto;
+		font-size: 20px;
+		margin-top: -10px;
+	}
+	#turquoispage {
+		box-decoration-break: clone;
+		box-sizing: border-box;
+		width: 200px;
+		height: 30px;
+		padding-top: 15px;
+		text-align: center;
+		margin-top: 40px;
+		background-color: rgb(43, 205, 192, 0.74);
+		font-family: "Assistant", sans-serif;
+		color: white;
+		font-size: 15px;
+	}
+	#turquoispage > p {
+		box-sizing: content-box;
+		width: 200px;
+		height: auto;
+		font-size: 20px;
+		margin-top: -10px;
+	}
 }
 @media (max-width: 576px) {
-    body {
-        max-width: 576px;
-        height: auto;
-    }
-    .head-container {
-        width: auto;
-        height: 250px;
-        opacity: .5%;
-        background: linear-gradient(rgb(244,103,49, .74),rgb(43,205,192, .74),rgb(50,168,218, .74));
-        background-size: 100%;
-        background-position: center;
-    }
-    .head-container h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-block-start: 10px;
-        color: white;
-        text-shadow: 1px 1px 2px rgb(244,103,49, .74) , 0 0 25px rgb(43,205,192, .74), 0 0 5px navy;
-        font-family: 'Orbitron', sans-serif;
-        font-size: 60px;
-        opacity: .57px;
-        padding-top: 50px;
-    }
-    .sidebar-icons {
-        display: flex;
-        flex-direction: row;
-        inline-size: center;
-        color: navy;
-        text-shadow: 2px 2px 4px whitesmoke;
-        margin-top: 150px;
-        margin-left: 130px;
-       /* background-color: lightpink;*/
-    }
-    section {
-        margin: 20px auto;
-        background-color: black;
-        width:auto;
-        height: 400px;
-        display:flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding-top: 20px;
-    }
-    #bluepage {
-        width: 350px;   
-        text-align: center;
-        align-content: center;
-        font-family: 'Assistant', sans-serif;
-        color: white;
-        font-size: 15px;
-        margin-left: 120px;
-        background-color: rgb(50,168,218, .74);
-        border-radius: 40%;
-    }
-    #bluepage > p {
-        display: none;
-    }
-    #orangepage {
-        width: 350px;           
-        text-align: center;
-        align-content: center;
-        font-family: 'Assistant', sans-serif;
-        color: white;
-        font-size: 15px;
-        margin-left: 120px;
-        background-color: rgb(244,103,49, .74);
-        border-radius: 40%;
-    }
-    #orangepage> p {
-        display: none;
-    }
-    #turquoispage {
-        width: 350px;       
-        text-align: center;
-        align-content: center;
-        font-family: 'Assistant', sans-serif;
-        color: white;
-        font-size: 15px;
-        margin-left: 120px;
-        background-color:  rgb(43,205,192, .74);
-        border-radius: 40%;
-    }
-    #turquoispage > p {
-        display: none;
-    }
+	body {
+		max-width: 576px;
+		height: auto;
+	}
+	header {
+		width: auto;
+		height: 250px;
+		opacity: 0.5%;
+		background: linear-gradient(
+			rgb(244, 103, 49, 0.74),
+			rgb(43, 205, 192, 0.74),
+			rgb(50, 168, 218, 0.74)
+		);
+		background-size: 100%;
+		background-position: center;
+	}
+	div > h1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-block-start: 10px;
+		color: white;
+		text-shadow: 1px 1px 2px rgb(244, 103, 49, 0.74),
+			0 0 25px rgb(43, 205, 192, 0.74), 0 0 5px navy;
+		font-family: "Orbitron", sans-serif;
+		font-size: 60px;
+		opacity: 0.57px;
+		padding-top: 50px;
+	}
+	header > .sidebar-icons {
+		display: flex;
+		flex-direction: row;
+		justify-content: ;
+		width: 220px;
+		color: navy;
+		text-shadow: 2px 2px 4px whitesmoke;
+		margin-top: 85px;
+		margin-left: 140px;
+	}
+	section {
+		margin: auto auto;
+		background-color: black;
+		width: auto;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	#bluepage {
+		width: 350px;
+		text-align: center;
+		align-content: center;
+		font-family: "Assistant", sans-serif;
+		color: white;
+		font-size: 15px;
+		margin-left: 120px;
+		background-color: rgb(50, 168, 218, 0.74);
+		border-radius: 40%;
+	}
+	#bluepage > p {
+		display: none;
+	}
+	#orangepage {
+		width: 350px;
+		text-align: center;
+		align-content: center;
+		font-family: "Assistant", sans-serif;
+		color: white;
+		font-size: 15px;
+		margin-left: 120px;
+		background-color: rgb(244, 103, 49, 0.74);
+		border-radius: 40%;
+	}
+	#orangepage > p {
+		display: none;
+	}
+	#turquoispage {
+		width: 350px;
+		text-align: center;
+		align-content: center;
+		font-family: "Assistant", sans-serif;
+		color: white;
+		font-size: 15px;
+		margin-left: 120px;
+		background-color: rgb(43, 205, 192, 0.74);
+		border-radius: 40%;
+	}
+	#turquoispage > p {
+		display: none;
+	}
 }
-

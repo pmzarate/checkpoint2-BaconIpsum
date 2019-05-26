@@ -9,9 +9,10 @@ header {
 	height: 360px;
 	opacity: 0.5%;
 	background: linear-gradient(
-			rgb(244, 103, 49, 0.74),
+            rgb(244, 103, 49, 0.74),	
 			rgb(43, 205, 192, 0.74),
-			rgb(50, 168, 218, 0.74)
+            rgb(50, 168, 218, 0.74),
+            rgb(244, 103, 49, 0.74)
 		)
 		no-repeat;
 	background-size: 100%;
@@ -34,7 +35,7 @@ h1 {
 .info {
 	width: auto;
 	height: 500px;
-	background-color: rgb(50, 168, 218, 0.74);
+	background-color: rgb(244, 103, 49, 0.74);
 }
 .info > h2 {
 	display: block;
@@ -59,7 +60,8 @@ h1 {
 		background: linear-gradient(
 				rgb(244, 103, 49, 0.74),
 				rgb(43, 205, 192, 0.74),
-				rgb(50, 168, 218, 0.74)
+                rgb(50, 168, 218, 0.74),
+                rgb(244, 103, 49, 0.74),
 			)
 			no-repeat;
 		background-size: 100%;
@@ -80,7 +82,7 @@ h1 {
 	.info {
 		width: auto;
 		height: 500px;
-		background-color: rgb(50, 168, 218, 0.74);
+		background-color: rgb(244, 103, 49, 0.74);
 	}
 	.info > h2 {
 		display: block;
@@ -106,7 +108,8 @@ h1 {
 		background: linear-gradient(
 				rgb(244, 103, 49, 0.74),
 				rgb(43, 205, 192, 0.74),
-				rgb(50, 168, 218, 0.74)
+                rgb(50, 168, 218, 0.74),
+                rgb(244, 103, 49, 0.74),
 			)
 			no-repeat;
 		background-size: 100%;
@@ -127,7 +130,7 @@ h1 {
 	.info {
 		width: auto;
 		height: auto;
-		background-color: rgb(50, 168, 218, 0.74);
+		background-color: rgb(244, 103, 49, 0.74);
 	}
 	.info > h2 {
 		display: flex;

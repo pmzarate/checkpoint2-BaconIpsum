@@ -9,9 +9,10 @@ header {
 	height: 360px;
 	opacity: 0.5%;
 	background: linear-gradient(
-			rgb(244, 103, 49, 0.74),
-			rgb(43, 205, 192, 0.74),
-			rgb(50, 168, 218, 0.74)
+         	rgb(43, 205, 192, 0.74),
+            rgb(50, 168, 218, 0.74),
+            rgb(244, 103, 49, 0.74),
+            rgb(43, 205, 192, 0.74)
 		)
 		no-repeat;
 	background-size: 100%;
@@ -22,7 +23,7 @@ h1 {
 	text-align: center;
 	color: white;
 	text-shadow: 3px 3px 6px rgb(244, 103, 49, 0.74),
-		0 0 25px rgb(43, 205, 192, 0.74), 0 0 5px navy;
+		0 0 25px rgb(50, 168, 218, 0.74), 0 0 5px navy;
 	font-family: "Orbitron", sans-serif;
 	font-size: 120px;
 	opacity: 0.57px;
@@ -34,7 +35,7 @@ h1 {
 .info {
 	width: auto;
 	height: 500px;
-	background-color: rgb(50, 168, 218, 0.74);
+	background-color:  rgb(43, 205, 192, 0.74);
 }
 .info > h2 {
 	display: block;
@@ -57,9 +58,10 @@ h1 {
 		height: auto;
 		opacity: 0.5%;
 		background: linear-gradient(
-				rgb(244, 103, 49, 0.74),
 				rgb(43, 205, 192, 0.74),
-				rgb(50, 168, 218, 0.74)
+                rgb(50, 168, 218, 0.74),
+                rgb(244, 103, 49, 0.74),
+                rgb(43, 205, 192, 0.74)
 			)
 			no-repeat;
 		background-size: 100%;
@@ -69,7 +71,7 @@ h1 {
 		margin-left: auto;
 		color: white;
 		text-shadow: 3px 3px 6px rgb(244, 103, 49, 0.74),
-			0 0 25px rgb(43, 205, 192, 0.74), 0 0 5px navy;
+			0 0 25px  rgb(50, 168, 218, 0.74), 0 0 5px navy;
 		font-family: "Orbitron", sans-serif;
 		font-size: 70px;
 		opacity: 0.57px;
@@ -80,7 +82,7 @@ h1 {
 	.info {
 		width: auto;
 		height: 500px;
-		background-color: rgb(50, 168, 218, 0.74);
+		background-color:  rgb(43, 205, 192, 0.74);
 	}
 	.info > h2 {
 		display: block;
@@ -104,9 +106,10 @@ h1 {
 		height: 300px;
 		opacity: 0.5%;
 		background: linear-gradient(
-				rgb(244, 103, 49, 0.74),
 				rgb(43, 205, 192, 0.74),
-				rgb(50, 168, 218, 0.74)
+                rgb(50, 168, 218, 0.74),
+                rgb(244, 103, 49, 0.74),
+                rgb(43, 205, 192, 0.74)
 			)
 			no-repeat;
 		background-size: 100%;
@@ -116,7 +119,7 @@ h1 {
 		margin-left: auto;
 		color: white;
 		text-shadow: 3px 3px 6px rgb(244, 103, 49, 0.74),
-			0 0 25px rgb(43, 205, 192, 0.74), 0 0 5px navy;
+			0 0 25px  rgb(50, 168, 218, 0.74) , 0 0 5px navy;
 		font-family: "Orbitron", sans-serif;
 		font-size: 40px;
 		opacity: 0.57px;
@@ -127,7 +130,7 @@ h1 {
 	.info {
 		width: auto;
 		height: auto;
-		background-color: rgb(50, 168, 218, 0.74);
+		background-color: rgb(43, 205, 192, 0.74);
 	}
 	.info > h2 {
 		display: flex;
